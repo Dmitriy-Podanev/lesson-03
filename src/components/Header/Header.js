@@ -2,7 +2,7 @@ import block from 'bem-cn'
 import React from 'react'
 import './Header.css'
 
-const b = block('header')
+const b = block('header');
 
 export const Header = () => (
   <header className={b()}>
